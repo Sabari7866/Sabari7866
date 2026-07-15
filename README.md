@@ -64,6 +64,13 @@
 
 <br />
 
+<div align="center">
+  <!-- Alternating Scrolling Marquee -->
+  <img src="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/main/marquee.svg" width="100%" max-width="720px" alt="Scrolling Tech Stack" />
+</div>
+
+<br />
+
 - **🧠 AI & Machine Learning:** Generative AI, Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), Agentic Systems, Prompt Engineering, Scikit-learn
 - **🐍 Programming Languages:** Python, Java, SQL, C++
 - **📊 Data Science & DBs:** Pandas, NumPy, Data Visualization, MySQL, Vector Databases, Embeddings
@@ -137,9 +144,9 @@
 <div align="center">
   <!-- Contribution Snake Game -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sabari7866/Sabari7866/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sabari7866/Sabari7866/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Sabari7866/Sabari7866/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
   </picture>
 </div>
 
