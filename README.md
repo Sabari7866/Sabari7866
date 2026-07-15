@@ -80,38 +80,37 @@
 
 ### 📂 Selected Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🔍 AI Knowledge Assistant</h4>
-      <p><em>RAG · LLM · Python · Vector DB</em></p>
-      <p>A contextual query chatbot structured on Retrieval-Augmented Generation (RAG) principles. Connects vector document indexing with LLMs to deliver reliable, context-validated search answers.</p>
-      <a href="https://github.com/ganagasabarinath/AI-Knowledge-Assistant"><b>View Code →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🚗 Smart Parking Management</h4>
-      <p><em>IoT · Python · MySQL · Real-Time</em></p>
-      <p>An IoT-enabled slot detection and allocation system presenting real-time parking spaces. Built with customized detection flows to optimize space management and urban navigation.</p>
-      <a href="https://sps-zeta.vercel.app/"><b>Live Demo ↗</b></a> | <a href="https://github.com/ganagasabarinath/Smart-Parking-System"><b>View Code →</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🌾 AgriSmart Cooperative</h4>
-      <p><em>Web Dev · JavaScript · AI Advisor · Localization</em></p>
-      <p>A collaborative interface linking agricultural workers, local growers, and merchants. Features multi-language localizations and contextual AI advisory.</p>
-      <a href="https://project-m8t9x559o-ganagasabarinath-v-ns-projects.vercel.app/login"><b>Live Demo ↗</b></a> | <a href="https://github.com/Sabari7866/Cooperative-Farming-System"><b>View Code →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🔬 Other Projects & Experiments</h4>
-      <ul>
-        <li><a href="https://github.com/Sabari7866/PRODIGY_GA_01">Generative AI Tasks</a> (5 Prodigy InfoTech tasks)</li>
-        <li><a href="https://github.com/Sabari7866/Language-Modeling-using-RNN-Stacked-Bidirectional-RNN-">Language Modeling using stacked Bidirectional RNN</a></li>
-        <li><a href="https://github.com/Sabari7866/image-generation-from-text-using-GANs">Text-to-Image Generation using GANs</a></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center">
+        <a href="https://github.com/ganagasabarinath/AI-Knowledge-Assistant">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ganagasabarinath&repo=AI-Knowledge-Assistant&theme=radical&title_color=818cf8&icon_color=fbbf24&text_color=a8a29e&bg_color=141210&border_color=2e2a24" alt="AI Knowledge Assistant" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/ganagasabarinath/Smart-Parking-System">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ganagasabarinath&repo=Smart-Parking-System&theme=radical&title_color=818cf8&icon_color=fbbf24&text_color=a8a29e&bg_color=141210&border_color=2e2a24" alt="Smart Parking System" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Sabari7866/Cooperative-Farming-System">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sabari7866&repo=Cooperative-Farming-System&theme=radical&title_color=818cf8&icon_color=fbbf24&text_color=a8a29e&bg_color=141210&border_color=2e2a24" alt="Cooperative Farming System" />
+        </a>
+      </td>
+      <td align="left" valign="top" style="padding: 15px;">
+        <h4 style="margin-top: 0;">🔬 Other Experiments &amp; Codebases</h4>
+        <ul>
+          <li><a href="https://github.com/Sabari7866/PRODIGY_GA_01">Generative AI Tasks</a> (Prodigy InfoTech)</li>
+          <li><a href="https://github.com/Sabari7866/Language-Modeling-using-RNN-Stacked-Bidirectional-RNN-">Language Modeling using RNNs</a></li>
+          <li><a href="https://github.com/Sabari7866/image-generation-from-text-using-GANs">Text-to-Image GANs</a></li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
