@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e1b18" />
+      <stop offset="100%" stop-color="#171513" />
+    </linearGradient>
+  </defs>
+  
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    
+    @keyframes fadeLine1 {
+      0%, 3% { opacity: 0; transform: translateY(4px); }
+      5%, 95% { opacity: 1; transform: translateY(0); }
+      97%, 100% { opacity: 0; }
+    }
+    @keyframes fadeLine2 {
+      0%, 13% { opacity: 0; transform: translateY(4px); }
+      15%, 95% { opacity: 1; transform: translateY(0); }
+      97%, 100% { opacity: 0; }
+    }
+    @keyframes fadeLine3 {
+      0%, 25% { opacity: 0; transform: translateY(4px); }
+      27%, 95% { opacity: 1; transform: translateY(0); }
+      97%, 100% { opacity: 0; }
+    }
+    @keyframes fadeLine4 {
+      0%, 37% { opacity: 0; transform: translateY(4px); }
+      39%, 95% { opacity: 1; transform: translateY(0); }
+      97%, 100% { opacity: 0; }
+    }
+    @keyframes fadeLine5 {
+      0%, 65% { opacity: 0; transform: translateY(4px); }
+      67%, 95% { opacity: 1; transform: translateY(0); }
+      97%, 100% { opacity: 0; }
+    }
+    @keyframes fadeLine6 {
+      0%, 75% { opacity: 0; transform: translateY(4px); }
+      77%, 95% { opacity: 1; transform: translateY(0); }
+      97%, 100% { opacity: 0; }
+    }
+    @keyframes fadeLine7 {
+      0%, 85% { opacity: 0; transform: translateY(4px); }
+      87%, 95% { opacity: 1; transform: translateY(0); }
+      97%, 100% { opacity: 0; }
+    }
+
+    .term-bg { fill: #141210; rx: 8px; stroke: #2e2a24; stroke-width: 1.5; }
+    .term-bar { fill: url(#headerGrad); }
+    .dot-r { fill: #ff5f56; }
+    .dot-y { fill: #ffbd2e; }
+    .dot-g { fill: #27c93f; }
+    .text-title { fill: #a8a29e; font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; font-weight: 500; letter-spacing: 0.05em; }
+    
+    .text-prompt { fill: #818cf8; font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; font-weight: bold; }
+    .text-cmd { fill: #ffffff; font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; font-weight: 500; }
+    .text-output { fill: #34d399; font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; }
+    .text-output-muted { fill: #a8a29e; font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; }
+    .text-accent { fill: #fbbf24; font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; }
+    
+    .cursor { fill: #818cf8; animation: blink 1s step-end infinite; }
+    
+    .line { transition: all 0.3s ease; }
+    .line-1 { animation: fadeLine1 15s infinite; }
+    .line-2 { animation: fadeLine2 15s infinite; }
+    .line-3 { animation: fadeLine3 15s infinite; }
+    .line-4 { animation: fadeLine4 15s infinite; }
+    .line-5 { animation: fadeLine5 15s infinite; }
+    .line-6 { animation: fadeLine6 15s infinite; }
+    .line-7 { animation: fadeLine7 15s infinite; }
+  </style>
+
+  <!-- Shadow effect -->
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000000" flood-opacity="0.5"/>
+  </filter>
+
+  <!-- Background Card -->
+  <rect width="720" height="360" class="term-bg" filter="url(#shadow)" />
+  
+  <!-- Window Header Bar -->
+  <path d="M 1 8 A 8 8 0 0 1 9 1 L 711 1 A 8 8 0 0 1 719 8 L 719 32 L 1 32 Z" class="term-bar" />
+  
+  <!-- Control Dots -->
+  <circle cx="24" cy="16" r="6" class="dot-r" />
+  <circle cx="44" cy="16" r="6" class="dot-y" />
+  <circle cx="64" cy="16" r="6" class="dot-g" />
+  
+  <!-- Title -->
+  <text x="360" y="20" text-anchor="middle" class="text-title">terminal — dev@gvn: ~</text>
+  
+  <!-- Terminal Console Body -->
+  <g transform="translate(25, 40)">
+    
+    <!-- COMMAND 1: whoami -->
+    <g class="line line-1">
+      <text x="0" y="25" class="text-prompt">~ $</text>
+      <text x="35" y="25" class="text-cmd">whoami</text>
+    </g>
+    <!-- OUTPUT 1 -->
+    <g class="line line-2">
+      <text x="15" y="50" class="text-output-muted">ganagasabarinath // AI &amp; Data Science Engineer</text>
+    </g>
+    
+    <!-- COMMAND 2: cat skills.json -->
+    <g class="line line-3">
+      <text x="0" y="85" class="text-prompt">~ $</text>
+      <text x="35" y="85" class="text-cmd">cat skills.json</text>
+    </g>
+    <!-- OUTPUT 2 -->
+    <g class="line line-4">
+      <text x="15" y="110" class="text-output">{</text>
+      <text x="35" y="130" class="text-output">"domain": "AI &amp; Data Science",</text>
+      <text x="35" y="150" class="text-output">"focus": ["GenAI", "RAG", "Agentic AI", "IoT"],</text>
+      <text x="35" y="170" class="text-output">"languages": ["Python", "Java", "SQL", "C++"]</text>
+      <text x="15" y="190" class="text-output">}</text>
+    </g>
+    
+    <!-- COMMAND 3: get-status -->
+    <g class="line line-5">
+      <text x="0" y="225" class="text-prompt">~ $</text>
+      <text x="35" y="225" class="text-cmd">get-status</text>
+    </g>
+    <!-- OUTPUT 3 -->
+    <g class="line line-6">
+      <text x="15" y="250" class="text-output-muted">Active graduate applicant | Open to ML &amp; Dev roles 🚀</text>
+    </g>
+    
+    <!-- CURSOR LINE -->
+    <g class="line line-7">
+      <text x="0" y="285" class="text-prompt">~ $</text>
+      <rect x="35" y="272" width="8" height="15" class="cursor" />
+    </g>
+  </g>
+</svg>

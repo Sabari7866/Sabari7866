@@ -5,7 +5,7 @@
   <p align="center">
     <a href="mailto:ganagasabarinath@gmail.com"><img src="https://img.shields.io/badge/Email-ganagasabarinath%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white&color=4F46E5" alt="Email" /></a>
     <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white&color=d97706" alt="LinkedIn" /></a>
-    <a href="resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white&color=1c1917" alt="Resume" /></a>
+    <a href="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/main/resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white&color=1c1917" alt="Resume" /></a>
   </p>
 </div>
 
@@ -13,7 +13,7 @@
 
 <!-- Animated Terminal Widget -->
 <div align="center">
-  <img src="terminal.svg" width="100%" max-width="720px" alt="Live Terminal Session" />
+  <img src="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/main/terminal.svg" width="100%" max-width="720px" alt="Live Terminal Session" />
 </div>
 
 <br />
@@ -31,7 +31,7 @@
       </ul>
     </td>
     <td width="35%" align="center" valign="middle">
-      <img src="profile.png" width="180px" style="border-radius: 12px; border: 2px solid #818cf8;" alt="Ganagasabarinath V N" />
+      <img src="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/main/profile.png" width="180px" style="border-radius: 12px; border: 2px solid #818cf8;" alt="Ganagasabarinath V N" />
     </td>
   </tr>
 </table>
@@ -115,7 +115,7 @@
 
 ---
 
-### 📊 Real-Time GitHub Metrics
+### 🐍 Contribution Activity
 
 <div align="center">
   <!-- Contribution Snake Game -->
@@ -124,38 +124,6 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/output/github-contribution-grid-snake.svg" />
     <img src="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
   </picture>
-</div>
-
-<br />
-
-<div align="center">
-  <!-- Gamified Trophies -->
-  <img src="https://github-profile-trophy.herokuapp.com/?username=Sabari7866&theme=radical&no-bg=true&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-</div>
-
-<br />
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=Sabari7866&show_icons=true&theme=radical&title_color=818cf8&icon_color=fbbf24&text_color=a8a29e&bg_color=141210&border_color=2e2a24" alt="GitHub Stats" width="100%" />
-      </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sabari7866&layout=compact&theme=radical&title_color=818cf8&icon_color=fbbf24&text_color=a8a29e&bg_color=141210&border_color=2e2a24" alt="Top Languages" width="100%" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sabari7866&theme=dark&background=141210&ring=818cf8&fire=fbbf24&currStreakNum=f5f5f4&currStreakLabel=a8a29e&sideNums=a8a29e&sideLabels=a8a29e&dates=625c58" alt="GitHub Streak Stats" width="100%" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sabari7866&theme=react-dark&bg_color=141210&color=818cf8&line=818cf8&point=fbbf24&area=true&hide_border=true" alt="Commit Activity Graph" width="100%" />
-      </td>
-    </tr>
-  </table>
 </div>
 
 ---
