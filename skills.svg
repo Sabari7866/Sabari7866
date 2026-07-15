@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="250" viewBox="0 0 720 250">
+  <style>
+    @keyframes loadBar1 { from { width: 0; } to { width: 520px; } }
+    @keyframes loadBar2 { from { width: 0; } to { width: 490px; } }
+    @keyframes loadBar3 { from { width: 0; } to { width: 460px; } }
+    @keyframes loadBar4 { from { width: 0; } to { width: 430px; } }
+
+    .chart-bg { fill: #141210; rx: 8px; stroke: #2e2a24; stroke-width: 1.5; }
+    .bar-track { fill: #1e1b18; rx: 4px; }
+    .bar-fill { rx: 4px; fill: #818cf8; }
+    .bar-fill-amber { rx: 4px; fill: #fbbf24; }
+    
+    .label { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 12px; fill: #e4e4e7; font-weight: 600; }
+    .val { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #818cf8; font-weight: bold; }
+    .val-amber { fill: #fbbf24; }
+
+    .bar-1 { animation: loadBar1 1.8s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; }
+    .bar-2 { animation: loadBar2 1.8s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; }
+    .bar-3 { animation: loadBar3 1.8s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; }
+    .bar-4 { animation: loadBar4 1.8s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; }
+  </style>
+
+  <!-- Background Panel -->
+  <rect width="720" height="250" class="chart-bg" />
+
+  <!-- Skill Item 1 -->
+  <g transform="translate(30, 30)">
+    <text x="0" y="15" class="label">🧠 AI &amp; Machine Learning (GenAI, RAG, Agents)</text>
+    <text x="610" y="15" class="val">90%</text>
+    <rect x="0" y="25" width="660" height="8" class="bar-track" />
+    <rect x="0" y="25" width="0" height="8" class="bar-fill bar-1" />
+  </g>
+
+  <!-- Skill Item 2 -->
+  <g transform="translate(30, 80)">
+    <text x="0" y="15" class="label">🐍 Python Programming &amp; Deep Learning</text>
+    <text x="610" y="15" class="val val-amber">85%</text>
+    <rect x="0" y="25" width="660" height="8" class="bar-track" />
+    <rect x="0" y="25" width="0" height="8" class="bar-fill-amber bar-2" />
+  </g>
+
+  <!-- Skill Item 3 -->
+  <g transform="translate(30, 130)">
+    <text x="0" y="15" class="label">📊 Data Science &amp; DBs (Pandas, Vector Databases)</text>
+    <text x="610" y="15" class="val">80%</text>
+    <rect x="0" y="25" width="660" height="8" class="bar-track" />
+    <rect x="0" y="25" width="0" height="8" class="bar-fill bar-3" />
+  </g>
+
+  <!-- Skill Item 4 -->
+  <g transform="translate(30, 180)">
+    <text x="0" y="15" class="label">🚗 IoT Arrays &amp; Real-time Systems</text>
+    <text x="610" y="15" class="val val-amber">75%</text>
+    <rect x="0" y="25" width="660" height="8" class="bar-track" />
+    <rect x="0" y="25" width="0" height="8" class="bar-fill-amber bar-4" />
+  </g>
+</svg>

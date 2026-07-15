@@ -1,3 +1,8 @@
+<!-- Waving Wave Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4F46E5,d97706,818cf8&height=220&section=header&text=Ganagasabarinath%20V%20N&subtitle=AI%20%26%20Data%20Science%20Engineer&fontSize=42&fontAlignY=38&descAlignY=62&theme=dark" width="100%" alt="Header Wave Banner" />
+</p>
+
 <div align="center">
   <!-- Typing SVG Animation -->
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=25&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Ganagasabarinath+V+N;AI+%26+Data+Science+Engineer;Building+Agentic+Systems+%26+RAG;Open+to+ML+Engineer+Roles" alt="Typing SVG" />
@@ -6,6 +11,11 @@
     <a href="mailto:ganagasabarinath@gmail.com"><img src="https://img.shields.io/badge/Email-ganagasabarinath%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white&color=4F46E5" alt="Email" /></a>
     <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white&color=d97706" alt="LinkedIn" /></a>
     <a href="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/main/resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white&color=1c1917" alt="Resume" /></a>
+  </p>
+
+  <!-- Profile Visitor Counter -->
+  <p align="center">
+    <img src="https://profile-counter.glitch.me/Sabari7866/count.svg" alt="Visitor Counter" />
   </p>
 </div>
 
@@ -43,6 +53,13 @@
 <div align="center">
   <!-- Tech stack icons grid -->
   <img src="https://skillicons.dev/icons?i=py,java,cpp,mysql,git,github,docker,html,css,js,vscode&theme=dark" alt="My Skills" />
+</div>
+
+<br />
+
+<div align="center">
+  <!-- Custom Animated Skill Progress Bars -->
+  <img src="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/main/skills.svg" width="100%" max-width="720px" alt="Technical Capabilities Chart" />
 </div>
 
 <br />
@@ -120,11 +137,20 @@
 <div align="center">
   <!-- Contribution Snake Game -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Sabari7866/Ganagasabarinath_VN_portfolio/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sabari7866/Sabari7866/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sabari7866/Sabari7866/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Sabari7866/Sabari7866/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
   </picture>
 </div>
+
+---
+
+<div align="center">
+  <!-- Dynamic Programming Quote Card -->
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Programming Quote" />
+</div>
+
+<br />
 
 ---
 
